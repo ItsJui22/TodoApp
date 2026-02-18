@@ -444,7 +444,7 @@ export default function Dashboard() {
       month: "long",
       year: "numeric",
     })}
-    {" • "}<br></br>
+    <br></br>
     ⏰ {new Date(task.created_at).toLocaleTimeString("en-US", {
       hour: "numeric",
       minute: "2-digit",
