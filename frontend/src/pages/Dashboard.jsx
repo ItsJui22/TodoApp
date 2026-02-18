@@ -370,7 +370,7 @@ export default function Dashboard() {
             onChange={(e) => setDeadline(e.target.value)}
             className="w-full p-2 rounded-lg border focus:ring-2 focus:ring-indigo-400 outline-none text-black"
           />
-          <button className="w-full  bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">
+          <button className="w-full  bg-indigo-600 text-white rounded-lg hover:bg-indigo-400 transition">
             Add Task
           </button>
         </form>
